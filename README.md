@@ -1,4 +1,4 @@
-# html-css-cursoemvideo
+# HTML5 e CSS3 - Curso em vídeo
  Curso de HTML5 e CSS3 do curso em vídeo. Estou aprendendo à criar sites no curso em vídeo, com o professor Gustavo Guanabara. Espero que aprenda bastante. 
 
 ## Exercícios
