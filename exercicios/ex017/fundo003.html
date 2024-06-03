@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos Fundos</title>
+    <style>
+        div.bloco {
+            background-image: url('imgs/wallpaper003.jpg');
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+
+        div:nth-child(1) {
+            background-position: left top;    
+        }
+
+        div:nth-child(2) {
+            background-position: left center;
+        }
+
+        div:nth-child(3) {
+            background-position: right bottom;
+        }
+
+        div:nth-child(4) {
+            background-position: center center;
+        }
+
+    </style> 
+</head>
+<body>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+</body>
+</html>
