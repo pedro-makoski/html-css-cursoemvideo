@@ -46,4 +46,4 @@ Veja os exercícios e os desafios:
 | <img src="img/d010-eu.png"> | Desafio 010 feito por mim | Desafio da história do Android, sem a ajuda do curso, no formato de vídeo. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d010-feitopormim/) |
 | <img src="img/d010-em-video.png"> | Desafio 010 feito em vídeo | Desafio do Android feito junto em curso. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d010-feitojuntoemvideo/android.html) |
 | <img src="img/d11.png"> | Desafio 011 | Desafio do astronauta no centro. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d011/) |
-| <img src="img/d012"> | Desafio 012 feito por mim. | Desafio do projeto do Cordel de **Milton Duarte**. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d012-feito-por-mim/)
+| <img src="img/d012"> | Desafio 012 feito por mim. | Desafio do projeto do Cordel de **Milton Duarte**. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d012-feito-por-mim/) |
