@@ -6,9 +6,7 @@
 body {
     position: relative;
     height: 100vh;
-    background-image: url('imgs/espaco.jpg');
-    background-position: top center;
-    background-repeat: no-repeat;
+    background: black url('imgs/espaco.jpg') top center no-repeat;
     background-size: cover;
 }
 
