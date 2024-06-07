@@ -47,4 +47,4 @@ Veja os exercícios e os desafios:
 | <img src="img/d010-em-video.png"> | Desafio 010 feito em vídeo | Desafio do Android feito junto em curso. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d010-feitojuntoemvideo/android.html) |
 | <img src="img/d011.png"> | Desafio 011 | Desafio do astronauta no centro. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d011/) |
 | <img src="img/d012.png"> | Desafio 012 feito por mim. | Desafio do projeto do Cordel de **Milton Duarte**. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d012-feito-por-mim/) |
-| <img src="img/d012.png"> | Desafio 012 feito junto em vídeo | Projeto Cordel Moderno, com poema criado por **Milton Duarte**. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d012-feito-por-mim/feito-junto-em-video) |
+| <img src="img/d012.png"> | Desafio 012 feito junto em vídeo | Projeto Cordel Moderno, com poema criado por **Milton Duarte**. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/feito-junto-em-video) |
