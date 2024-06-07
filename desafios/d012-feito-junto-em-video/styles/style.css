@@ -52,20 +52,37 @@ section {
     font-size: min(4.5vw, 30px);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.564);
     background-color: rgb(45, 45, 45);
     color: white;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#imagem-01-joaninha {
+    background-image: url('../imagens/background001.jpg');
+}   
+
+section#imagem-02-papel {
+    background-image: url('../imagens/background002.jpg');
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.218);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.441);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
