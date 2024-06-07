@@ -52,7 +52,7 @@ main p {
     padding-bottom: 15px;
     font-size: min(3vw, 30px);
     font-family: var(--fonte-1);
-    margin: 5px 0 0 10px;
+    margin: 40px 0 40px 10px;
 }
 
 main div {
