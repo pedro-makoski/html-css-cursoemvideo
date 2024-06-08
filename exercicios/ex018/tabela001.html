@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 1000px;
+            border-collapse: collapse;
+            border: 5px solid cadetblue;
+        }
+
+        table.tabela-ajust {
+            width: 400px;
+            height: 400px;
+        }
+
+        tr.linha {
+            background-color: beige;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        table.tabela-ajust td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table.tabela-ajust td.numero {
+            text-align: right;
+        }
+
+        td.dado {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <h2>Minha primeira tabela</h2>
+    <table>
+        <tr> <!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td class="dado">C1</td>
+        </tr>
+        <tr class="linha"> 
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr> 
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="linha"> 
+            <td class="dado">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td>B6</td>
+            <td>C6</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table>
+    <h2>Tabela das empresas de tecnologia</h2>
+    <table>
+        <tr>
+            <td>Google</td>
+            <td>Sou muito fã &#x2764;.</td>
+            <td>Grande monopolio, vive de anuncios, e mata todos os produtos que não vão para frente.</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>Não sou fã.</td>
+            <td>Tem e quer ter mais um grande monopólio, é atualmente a empresa que mais vale do mundo.</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Cara e chique de mais.</td>
+            <td>Ganha bilhões vendo celulares caros, que são comprados(a maioria das vezes) pelo status.</td>
+        </tr>
+        <tr>
+            <td>Meta</td>
+            <td>Consegue vive impressionantemente de anúncios em redes sóciais.</td>
+            <td>Vive de anuncios e óculos de realidade XR, VR ou AR.</td>
+        </tr>
+    </table>
+    <h2>Minha primeira tabela mais ajustada</h2>
+    <table class="tabela-ajust">
+        <tr> <!--primeira linha-->
+            <td>A1</td>
+            <td class="numero">B1</td>
+            <td>C1</td>
+        </tr>
+        <tr> 
+            <td>A2</td>
+            <td class="numero">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr> 
+            <td>A3</td>
+            <td class="numero">B3</td>
+            <td>C3</td>
+        </tr>
+        <tr> 
+            <td>A4</td>
+            <td class="numero">B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
