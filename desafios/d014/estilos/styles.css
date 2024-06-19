@@ -83,6 +83,10 @@ section#redes-sociais a::before {
     opacity: 0;
 }
 
+section a img:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
 section#redes-sociais a:hover::before {
     opacity: 1;
     animation: rotate .5s infinite;
