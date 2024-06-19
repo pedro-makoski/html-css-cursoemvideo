@@ -34,3 +34,11 @@ section#telefone {
     width: 272px;
     background: url('../imagens/samsung-galaxy.png') center center no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 255px;
+    height: 556px;
+}
