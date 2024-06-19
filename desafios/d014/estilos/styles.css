@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 html, body {
@@ -42,3 +43,60 @@ iframe#tela {
     width: 255px;
     height: 556px;
 }
+
+section#redes-sociais {
+    width: fit-content;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    padding: 10px;
+    overflow: hidden;
+}
+
+section#redes-sociais a {
+    display: block;
+    width: fit-content;
+    position: relative;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+section#redes-sociais a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: -5%;
+    border-radius: 0 100% 0 0;
+    z-index: -1;
+    transform-origin: bottom left;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+section#redes-sociais a:hover::before {
+    opacity: 1;
+    animation: rotate .5s infinite;
+    animation-timing-function: linear;
+    transition: .2s linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
