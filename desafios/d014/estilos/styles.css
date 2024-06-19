@@ -74,43 +74,13 @@ section#redes-sociais a {
 section#redes-sociais img {
     width: 50px;
     border-radius: 50%;
+    border: 0px solid rgb(255, 255, 255);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
+    transition: .1s ease-in-out;
 }
 
-section#redes-sociais a::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 50%;
-    top: -5%;
-    border-radius: 0 100% 0 0;
-    z-index: -1;
-    transform-origin: bottom left;
-    background-color: rgb(255, 255, 255);
-    opacity: 0;
+section#redes-sociais img:hover {
+    border-width: 2.5px;
+    transition: .1s ease-in-out;
 }
-
-section a img:hover {
-    border: 1px solid rgb(255, 255, 255);
-}
-
-section#redes-sociais a:hover::before {
-    opacity: 1;
-    animation: rotate .5s infinite;
-    animation-timing-function: linear;
-    transition: .2s linear;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
