@@ -33,7 +33,7 @@ section#telefone {
 
     height: 573px;
     width: 272px;
-    background: url('../imagens/samsung-galaxy.png') center center no-repeat;
+    background: url('../imagens/samsung-galaxy.jpg') center center no-repeat;
 }
 
 main #camera {
@@ -43,7 +43,7 @@ main #camera {
     height: 12px;
     top: 20px;
     left: 50%;
-    background: url('../imagens/camera.png');
+    background: url('../imagens/camera.png');   
 }
 
 iframe#tela {
