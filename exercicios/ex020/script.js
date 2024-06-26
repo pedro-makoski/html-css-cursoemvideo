@@ -77,11 +77,11 @@ function to_string(arr, value) {
 }
 
 inputs.map((input) => {
+    let pattern = input.getAttribute('pattern')
+    let pattern_arr = to_arr(pattern)
+    
     input.addEventListener('input', () => {
         let valor = input.value
-        let pattern = input.getAttribute('pattern')
-        
-        let pattern_arr = to_arr(pattern)
         let new_value = to_string(pattern_arr, valor)
         
         input.value = new_value
