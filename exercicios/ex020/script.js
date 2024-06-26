@@ -47,41 +47,43 @@ function to_arr(pattern) {
 }
 
 function to_string(arr, value) {
-    console.log(arr)
     let new_value = Array.from(value)
     let finish_for = false 
 
-    if(new_value.length >= arr.length) {
-        new_value = new_value.slice(0, arr.length)
-    }
-
     for(let i = 0; !finish_for; i++) {
+        let volta_idx = false
+    
+        if(new_value.length >= arr.length) {
+            new_value = new_value.slice(0, arr.length)
+        }  
+
+        
         if(new_value[i] !== arr[i] && isNaN(parseInt(new_value[i]))){
-            new_value.splice(i, 1)
+            new_value.splice(i, 1)  
+            volta_idx = true
         }else if(new_value[i] !== arr[i] && arr[i] !== 'number' && !isNaN(parseInt(new_value[i]))) {
             new_value.splice(i, 0, arr[i])
         }
 
-        if(i > new_value.length) {
-            console.log(i, new_value.length, value.length)
+        if(i >= new_value.length) {
             finish_for = true
         }   
+        
+        if(volta_idx) {
+            i -= 1
+        }
     }
-
     return new_value.join('')
 }
 
 inputs.map((input) => {
     input.addEventListener('input', () => {
         let valor = input.value
-        //let valor = '4199690-4836'
         let pattern = input.getAttribute('pattern')
-
+        
         let pattern_arr = to_arr(pattern)
         let new_value = to_string(pattern_arr, valor)
-
+        
         input.value = new_value
-
-        console.log(new_value)
     })
 })
