@@ -2,6 +2,76 @@
 
 /* Todas as demais medias. */
 
-@media print {
-    
+
+
+@media print { /* Impressão */ 
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main > h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site pedro-makoski.github.io';
+        text-decoration: overline;
+    }
+
+    img:not(#print) {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1100px){ /* tablet */
+    body {
+        background-image: url('../imgs/back-tablet.jpg');
+    }
+
+    img:not(#tablet) {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1099px) and (max-width: 2000px){ /* Desktop */ 
+    body {
+        background-image: url('../imgs/back-pc.jpg');
+    }
+
+    img:not(#pc) {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 2001px) { /* Telas grandes */ 
+    body {
+        background-image: url('../imgs/back-tv.jpg');
+    }
+
+    img:not(#tv) {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+}
+
