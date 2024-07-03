@@ -17,3 +17,21 @@
         border-top: none;
     }
 }
+
+@media print {
+    header > nav {
+        display: none !important;
+    }
+
+    header h1 {
+        color: black;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
