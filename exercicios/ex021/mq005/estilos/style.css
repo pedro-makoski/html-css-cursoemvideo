@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: cadetblue;
+    background-color: rgb(115, 192, 195);
 }
 
 header {
@@ -20,8 +20,21 @@ header > h1 {
     text-align: center;
 }
 
-nav {
+span#burguer {
     display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(41, 67, 68);
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    display: none;
 }
 
 nav > ul {
@@ -43,11 +56,11 @@ nav a:hover {
 }
 
 main {
-    width: 90vw;
+    width: calc(90vw - 20px);
     background-color: white;
     margin: auto;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 

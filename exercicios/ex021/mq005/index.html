@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <nav>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
+            menu
+        </span>
+        <nav id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Cadastro</a></li>
@@ -30,5 +34,14 @@
             <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsam, beatae ab temporibus numquam facilis delectus perferendis hic, ratione iusto neque nisi autem explicabo cum similique rem illum totam sapiente?</span><span>Vero magnam minima enim neque veritatis labore maxime ullam. Minus quod excepturi facilis accusamus? Dolorem magni odit atque doloribus tempore, repellendus sit impedit rem dolores unde earum, optio sequi laboriosam?</span><span>Fugiat amet vero neque inventore error? Officiis quia ea nostrum rerum amet iure quas quasi officia impedit qui maxime libero dolores pariatur, quod voluptatum sunt numquam error sit quam ex.</span><span>Delectus, nulla assumenda quod, odit distinctio sit eius vero est, ullam blanditiis asperiores. Aspernatur quo debitis magnam consectetur ipsam vero, quia fuga, qui eveniet esse, porro quod facere vel exercitationem?</span><span>Earum distinctio ut perspiciatis in iusto sapiente quae itaque! Temporibus velit consectetur repudiandae, quasi molestias architecto porro excepturi quod dolorem voluptatibus minima iste aut eaque nemo inventore placeat vel amet.</span><span>Reprehenderit tenetur quod quae aliquam, quasi deleniti id corporis, earum ratione quos incidunt quo molestias facilis nobis eligendi officia cumque nisi ducimus fugiat, porro sed eos suscipit? Ea, provident ducimus.</span><span>Voluptatem ratione repudiandae vel accusamus aperiam consequatur officia inventore sequi facere pariatur deserunt odio iusto tempora commodi ad molestias unde, rerum quod nostrum debitis asperiores? Molestias dolorem molestiae facere hic?</span></p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
