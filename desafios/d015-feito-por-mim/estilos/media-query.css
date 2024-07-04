@@ -32,11 +32,11 @@
 @media screen and (min-width: 1000px) {
     main {
         flex-direction: row-reverse;
-        width: 70vw;
+        width: 50vw;
     }
 
     #imagem {
-        width: 40%;
+        width: 50%;
     }
 
     #imagem img {

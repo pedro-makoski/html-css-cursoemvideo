@@ -38,6 +38,9 @@ main {
 section#login {
     padding: 20px;
     width:calc(100% - 20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
