@@ -37,7 +37,7 @@ main {
 
 section#login {
     padding: 20px;
-    width:calc(100% - 20px);
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -54,10 +54,6 @@ p {
     text-align: center;
 }
 
-form {
-    width: 100%;
-}
-
 form > div.input {
     display: flex;
     align-items: center;
@@ -66,7 +62,6 @@ form > div.input {
     color: white;
     margin-bottom: 10px;
     border-radius: 10px;
-    width: calc(100% - 30px);
 }
 
 form > div.input > label {
@@ -76,10 +71,10 @@ form > div.input > label {
 
 form > div.input > input {
     display: block;
-    width: 100%;
     height: 10px;
     border-radius: 10px;
     padding: 20px;
+    width: 100%;
 }
 
 form > div.input > input:focus {
@@ -87,7 +82,6 @@ form > div.input > input:focus {
 }
 
 .enviaresetar {
-    width: calc(100% - 10px);
     display: flex;
     justify-content: space-between;
     
@@ -118,7 +112,6 @@ a {
     font-size: 1.5em;
     background-color: var(--cor-2);
     border-radius: 10px;
-    width: calc(100% - 40px);
 }
 
 a span {
