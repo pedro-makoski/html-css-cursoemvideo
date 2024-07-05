@@ -41,3 +41,14 @@
         border-radius: 0 30px 30px 0;
     }
 }
+
+@media print {
+    main {
+        display: none;
+    }
+
+    body::after {
+        font-family: 'Courier New', Courier, monospace;
+        content: 'Esse conteúdo não funciona para impressoras';
+    }
+}
