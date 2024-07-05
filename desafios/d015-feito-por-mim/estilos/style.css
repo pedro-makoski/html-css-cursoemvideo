@@ -28,6 +28,10 @@ main {
     flex-direction: column;
 }
 
+#imagem {
+    position: relative;
+}
+
 #imagem img {
     width: 100%;
     object-fit: cover;
