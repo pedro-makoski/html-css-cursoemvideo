@@ -60,13 +60,36 @@ section#login > div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
-    height: 40px;
-    border-radius: 5px;
+    height: 50px;
+    border-radius: 8px;
     margin: 5px 0;
 }
 
 form label {
     display: none;
+}
+
+div.campo span.material-symbols-outlined {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #59c1be;
+    width: calc(100% - 50px);
+    height: calc(100% - 10px);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(-7.5px);
+
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    outline: none;
 }
 
 form input[type="submit"] {
