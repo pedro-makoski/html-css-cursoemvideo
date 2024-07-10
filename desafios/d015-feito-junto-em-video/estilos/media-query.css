@@ -8,11 +8,7 @@
 
     section#login {
         width: 80vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
         height: 300px;
-        transform: translate(-50%, -50%);
     }
 
     section#login > div#imagem{
@@ -51,5 +47,12 @@
     section#login > div#formulario > p {
         font-size: 1.1em;
         margin: 20px 0;
+    }
+}
+
+@media screen and (max-height: 515px){
+    section#login {
+        position: static;
+        transform: none;
     }
 }
