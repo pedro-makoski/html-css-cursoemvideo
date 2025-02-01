@@ -42,7 +42,7 @@ Veja os exercícios e os desafios:
 | <img src="img/d003.png" alt="Imagem do desafio 003"> | Desafio 003 | Imagens e quebra de linha HTML. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d003/) |
 | <img src="img/d004.png" alt="Imagem do desafio 004"> | Desafio 004 | Emojis e listas HTML. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d004/) |
 | <img src="img/d005.png" alt="Imagem do desafio 005"> | Desafio 005 | Redes sóciais - links e descrição | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d005/) |
-| <img src="img/d006.png"> alt="Imagem do desafio 006"| Desafio 006 | Abreviações e listas HTML. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d006/) |
+| <img src="img/d006.png" alt="Imagem do desafio 006">| Desafio 006 | Abreviações e listas HTML. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d006/) |
 | <img src="img/d007.png" alt="Imagem do desafio 007"> | Desafio 007 | Imagens flexiveis com a tag picture | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d007/) |
 | <img src="img/d008.png" alt="Imagem do desafio 008"> | Desafio 008 | Navegação com links e cores. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d008/) |
 | <img src="img/d009.png" alt="Imagem do desafio 009"> | Desafio 009 | Navegação entre alguns vídeos de curso. | [aqui](https://pedro-makoski.github.io/html-css-cursoemvideo/desafios/d009/) |
