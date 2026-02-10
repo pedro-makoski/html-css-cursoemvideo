@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Blocks</title>
+    <style>
+        .conteiner {
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item { 
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            
+            padding: 30px;
+        }
+
+        .item:nth-child(1) {
+            flex: 0 1 200px;
+        }
+
+        .item:nth-child(2) {
+            flex: 1 2 200px;
+        }
+
+        .item:nth-child(3) {
+            flex: 2 1 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>
