@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header {
+    flex-direction: column;
+}
+
+header nav ul {
+    flex-direction: column;
+
+    li {
+        width: 100%;
+    }
+}
